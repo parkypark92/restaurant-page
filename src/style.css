@@ -1,0 +1,17 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.content {
+  width: 900px;
+  height: 100vh;
+  background-color: red;
+}
+
+.fuckYou {
+  height: 200px;
+  width: 200px;
+  background-color: aquamarine;
+}
