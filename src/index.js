@@ -1,4 +1,5 @@
 import "./style.css";
+import "./home-style.css";
 import {
   createMainContainer,
   createHeader,
@@ -6,8 +7,8 @@ import {
   createLogo,
   createNav,
   createNavElement,
-  createSection,
 } from "./page-load";
+import { homeSection } from "./home";
 
 const body = document.querySelector("body");
 const mainContainer = createMainContainer(body);
@@ -19,3 +20,5 @@ const homeTab = createNavElement(navBar, "HOME");
 const menuTab = createNavElement(navBar, "MENU");
 const reserveTab = createNavElement(navBar, "RESERVATION");
 const contactTab = createNavElement(navBar, "CONTACT");
+
+mainContainer.appendChild(homeSection);

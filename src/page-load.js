@@ -27,7 +27,7 @@ function createLogo(element) {
   logoContainer.classList.add("logo-contain");
   element.appendChild(logoContainer);
   const logo = document.createElement("h1");
-  logo.textContent = `ANDREW & LAURA's`;
+  logo.textContent = `Bebe's`;
   logo.classList.add("logo");
   logoContainer.appendChild(logo);
 }
@@ -54,9 +54,8 @@ function createFooter(element) {
   return footer;
 }
 
-function createSection(element, section) {
+function createSection(section) {
   const currentSection = document.createElement("section");
   currentSection.classList.add(`${section}-container`);
-  element.appendChild(currentSection);
   return currentSection;
 }

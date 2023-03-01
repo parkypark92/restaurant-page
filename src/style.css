@@ -25,7 +25,6 @@ body {
 
 .main-contain {
   width: 1300px;
-  min-height: 100vh;
   margin: auto;
   background-color: var(--custom-black);
 }
@@ -49,7 +48,6 @@ body {
 .logo {
   color: aliceblue;
   font-size: 2.5em;
-  text-decoration: underline;
 }
 
 .nav-bar {
@@ -59,7 +57,7 @@ body {
 
 .nav-tab {
   color: aliceblue;
-  font-size: 1.7em;
+  font-size: 1.5em;
 }
 
 .nav-tab:hover {
@@ -68,10 +66,6 @@ body {
 
 .selected {
   border: 2px solid white;
-}
-
-.home-container {
-  color: aliceblue;
 }
 
 .footer {
