@@ -2,6 +2,7 @@ import "./style.css";
 import "./home-style.css";
 import "./menu-style.css";
 import "./reserve-style.css";
+import "./contact-style.css";
 import {
   createMainContainer,
   createHeader,
@@ -13,6 +14,7 @@ import {
 import { homeSection } from "./home";
 import { menuSection } from "./menu";
 import { reserveSection } from "./reserve";
+import { contactSection } from "./contact";
 
 const body = document.querySelector("body");
 const mainContainer = createMainContainer(body);
@@ -43,3 +45,5 @@ homeTab.addEventListener("click", displaySection.bind(homeSection));
 menuTab.addEventListener("click", displaySection.bind(menuSection));
 
 reserveTab.addEventListener("click", displaySection.bind(reserveSection));
+
+contactTab.addEventListener("click", displaySection.bind(contactSection));

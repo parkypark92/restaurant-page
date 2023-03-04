@@ -1,0 +1,23 @@
+.contact-container {
+  color: white;
+  padding: 40px 120px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-contain {
+  width: 500px;
+  text-align: center;
+  margin-top: 100px;
+}
+
+h2 {
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 1.5em;
+  margin-bottom: 10px;
+}
