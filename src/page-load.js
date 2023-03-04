@@ -50,6 +50,7 @@ function createNavElement(element, tabName) {
 function createFooter(element) {
   const footer = document.createElement("footer");
   footer.classList.add("footer");
+  footer.textContent = `Bebe's copyright 2023`;
   element.appendChild(footer);
   return footer;
 }

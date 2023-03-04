@@ -21,12 +21,12 @@ const mainContainer = createMainContainer(body);
 const header = createHeader(mainContainer);
 const logo = createLogo(header);
 const navBar = createNav(header);
-const footer = createFooter(body);
 const homeTab = createNavElement(navBar, "HOME");
 const menuTab = createNavElement(navBar, "MENU");
 const reserveTab = createNavElement(navBar, "RESERVATION");
 const contactTab = createNavElement(navBar, "CONTACT");
 const tabs = [homeTab, menuTab, reserveTab, contactTab];
+const footer = createFooter(body);
 
 mainContainer.appendChild(homeSection);
 homeTab.classList.add("selected");
